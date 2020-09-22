@@ -5,3 +5,8 @@ ANDROID FOLDER CONTAIN APK
 <center><img src="https://imgur.com/download/bRlPqni" /></center>
 
 get current location and save it to database
+
+<center><img src="https://imgur.com/download/Jp1epc7" /></center>
+
+listener services gps and get all marker
+
