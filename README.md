@@ -10,3 +10,6 @@ get current location and save it to database
 
 listener services gps and get all marker
 
+<center><img src="https://imgur.com/download/k7XFJ4Q" /></center>
+
+compute Distance in 10 < meter 
