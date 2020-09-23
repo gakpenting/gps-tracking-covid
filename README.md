@@ -15,3 +15,7 @@ listener services gps and get all marker
 - compute Distance in 10 < meter 
 
 - listen only device online <=10 diffMinutes  
+
+<center><img src="https://imgur.com/download/qsjs3aE" /></center>
+
+- notification
