@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "818006339740",
+    "firebase_url": "https://silver-fiber-290103.firebaseio.com",
+    "project_id": "silver-fiber-290103",
+    "storage_bucket": "silver-fiber-290103.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818006339740:android:4bd3af51e13e13984c3d59",
+        "android_client_info": {
+          "package_name": "com.gpstrackingcovid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818006339740-k00dddadiibrbf40f5ilm6csvpjtbc2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChpigyz4NlViW_BlyYt1ib7CgO3XNTc5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818006339740-k00dddadiibrbf40f5ilm6csvpjtbc2i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

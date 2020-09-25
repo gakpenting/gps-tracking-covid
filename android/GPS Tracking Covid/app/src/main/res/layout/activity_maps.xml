@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/activity_main"
+    tools:context=".MapsActivityCurrentPlace" >
+
+
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/lnly_notif_offline"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_red_light"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:id="@+id/tv_offline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical|center"
+                android:text=" OFFLINE "
+                android:textSize="12sp"
+
+                />
+
+            <ImageView
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@+id/tv_offline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_warning_blue_700_24dp"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/request_location_updates_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/remove_location_updates_button"
+        android:text="@string/request_location_updates" />
+
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/remove_location_updates_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remove_location_updates" />
+
+</RelativeLayout>
+
+
+
